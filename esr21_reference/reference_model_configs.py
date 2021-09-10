@@ -6,6 +6,7 @@ site_reference_configs.register_from_visit_schedule(
 
 configs = {
     'esr21_subject.pregnancystatus': ['child_bearing_potential', ],
+    'esr21_subject.adverseevent': ['experienced_ae'],
  }
 
 for reference_name, fields in configs.items():
