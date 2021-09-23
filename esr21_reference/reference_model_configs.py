@@ -8,6 +8,8 @@ configs = {
     'esr21_subject.pregnancystatus': ['child_bearing_potential', ],
     'esr21_subject.adverseevent': ['experienced_ae'],
     'esr21_subject.vaccinationdetails': ['adverse_event'],
+    'esr21_subject.covid19symptomaticinfections': ['symptomatic_experiences',
+                                                   'hospitalisation_visit'],
  }
 
 for reference_name, fields in configs.items():
