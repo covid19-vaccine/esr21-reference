@@ -11,6 +11,7 @@ configs = {
     'esr21_subject.vaccinationdetails': ['adverse_event'],
     'esr21_subject.covid19symptomaticinfections': ['symptomatic_experiences',
                                                    'hospitalisation_visit'],
+    'esr21_subject.covid19results': ['covid_result']
  }
 
 for reference_name, fields in configs.items():
